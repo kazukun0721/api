@@ -3,7 +3,7 @@ import json
 import os
 
 # LINE通知用の設定（LINE Notifyからトークンを取得して入れる）
-LINE_TOKEN = "ここにあなたのLINEトークンを入れる"
+LINE_TOKEN = "R1rKkKtMC8FexEogefqKITz+pkjLo/cotFCLNvQFcxUKy8u1Cr7A+vjBgnbBrXlzBgmKu1ZtQUDtqPob3YM+QXc7i+SGcf5JQa+uEy/zT5haNKWau9m4CccPZ0TvQ7BPRR5oaW0X0KR1jWMMsx3tmgdB04t89/1O/w1cDnyilFU="
 
 def send_line(message):
     url = "https://notify-api.line.me/api/notify"
